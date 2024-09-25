@@ -46,7 +46,7 @@
                 width: 320px;
                 border-radius: 16px;
                 margin-left: 40px;
-               
+
             }
 
             .text {
@@ -56,14 +56,17 @@
 
             .input {
                 margin-top: 4px;
-                display: flex;
-                height: 40px;
                 width: 100%;
-                flex-direction: column;
-                align-items: center;
+                height: 40px;
                 border-top: 0px;
                 border-left: 0px;
                 border-right: 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
+
             }
 
             .sub {
@@ -87,20 +90,16 @@
 
     <div class="container">
         <div class="child">
-            <div class="title">Sharp Filled
+            <div class="title">Sharp Fill - No Label
                 <hr />
             </div>
             <div class="box">
                 <div class="text">
-                    <label>
-                        name
-                    </label>
+                    name
                     <input class="input" type="text">
                 </div>
                 <div class="text">Email
                     <input class="input" type="text">
-                </div>
-                
                 </div>
                 <div class="text">
                     Phone number
@@ -109,7 +108,7 @@
                 <div class="text">Date of Birth
                     <input class="input" type="date">
                 </div>
-                <div class="text"><label>State</label>
+                <div class="text">State
                     <select class="input" id="State">
                         <option value="State"></option>
                         <option value="State">goa </option>
@@ -129,3 +128,4 @@
 </form>
 
 </html>
+
